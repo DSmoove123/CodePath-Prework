@@ -1,0 +1,127 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-color: slategrey;
+  color: black;
+  margin: 2em;
+  font-family: verdana, arial, sans-serif; 
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+    background:green;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button2:active, #button2.lit {
+    background:blue;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button3:active, #button3.lit {
+    background:red;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+    background:yellow;
+}
+
+#button5 {
+    background: orange;
+}
+
+#button5:active, #button5.lit {
+    background:darkorange;
+}
+
+#button6 {
+    background: lightgreen;
+}
+
+#button6:active, #button6.lit {
+    background:green;
+}
+
+#button7 {
+    background: lightblue;
+}
+
+#button7:active, #button7.lit {
+    background:blue;
+}
+
+#button8 {
+    background: pink;
+}
+
+#button8:active, #button8.lit {
+    background:red;
+}
+
+#button9 {
+    background: lightyellow;
+}
+
+#button9:active, #button9.lit {
+    background:yellow;
+}
+
+#button10 {
+    background: orange;
+}
+
+#button10:active, #button10.lit {
+    background:darkorange;
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
