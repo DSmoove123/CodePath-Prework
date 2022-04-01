@@ -70,7 +70,7 @@ can be recommended to me so that I can learn more about Web Development.]
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/8caf0f66405f4f55b9e34ef075b83706)
 
 
 ## License
